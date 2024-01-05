@@ -2,40 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>The8BitByte</title>
+    <title>Contact | The 8 Bit Byte</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    
 </head>
-<body class="dark-mode">
-    <header>
-        <h1><span style="font-family:arial,helvetica,sans-serif;">my tools and software</span></h1>
-    </header>
+<body>
+  
+  
+    <nav class="side-panel">
+        <!-- Your navigation buttons go here -->
+        <button onclick="window.location.assign('https://the8bitbyte.github.io/')">Home</button>
+        <button onclick="window.location.assign('https://the8bitbyte.github.io/my-tools-and-software/')">Projects</button>
+        <button onclick="window.location.assign('https://the8bitbyte.github.io/Contact/')">Contact</button>
+    </nav>
 
-    <main>
-        <p><span style="font-family:arial,helvetica,sans-serif;">all of my tools and software (for now) are C# console applications</span></p>
-        <p><span style="font-family:arial,helvetica,sans-serif;">all of these are GitHub links</span></p>
-        <p><span style="font-family:arial,helvetica,sans-serif;">if you encounter an issue, please let me know via Discord or email</span></p>
-        <hr />
-        <p>&nbsp;</p>
-        <p><span style="font-family:arial,helvetica,sans-serif;">my file encryption software <a href="https://github.com/the8bitbyte/zeus-crypt" target="_blank">Zeus-crypt</a></span></p>
-        <p><span style="font-family:arial,helvetica,sans-serif;">a computer virus made for fun <a href="https://github.com/the8bitbyte/wrath-v2" target="_blank">Wrath v2</a></span></p>
-        <p>&nbsp;</p>
-    </main>
-    <p>
-        <span style="font-family:arial,helvetica,sans-serif;">
-            <a href="#"><button>my tools / software</button></a>
-            &nbsp; &nbsp; &nbsp;
-            <a href="https://the8bitbyte.github.io/games-page/"><button>my roblox games</button></a>
-            &nbsp; &nbsp; &nbsp;
-            <a href="https://the8bitbyte.github.io/"><button>about me</button></a>
-        </span>
-    </p>
-    <footer>
+    <div class="content">
+        <header>
+            <!-- Your header content goes here -->
+            <h1>Projects</h1>
+        </header>
+
+        <main>
+            <!-- Your main content goes here -->
+            <p>Welcome to a showcase of various projects I've worked on.<br> Each project represents a unique journey in problem-solving and<br> creative exploration. Please note that, like any project, there<br> might be occasional issues or bugs. If you encounter<br> any, feel free to contact me.</p>
+        </main>
+
+       <wrath>
+         <h1>Wrath v2</h1>
+         <P>Discription<br><br>Wrath v2 is a ethical computer virus i made for fun without malicious intent, it is based off the wrath framework i made for one of my failed projects, wrath v1. Wrath uses a powershell script to infect files and do other things that the executable doesnt have permission to do.<br><br>Technologies Used<br><br>Wrath v2 is written in C# and uses powershell for a lot of the<br> backend<br><br>Challenges<br><br>during the development of Wrath v2 i faced a lot of issues, the most<br> notable of which is a error with the assembaly signing this one was<br> challenging to solve for there was little documentation on it, i fixed<br> it by downgrading one of the packages used</P>
+         <div class="alert">
+          
+          Warning<br> Dispite Wrath being ethical, it is still a computer virus, do not run on your main computer, use a spare one or a VM
+        </div>
+        <P><a target="_blank" href="https://github.com/the8bitbyte/wrath-v2">"here"</a> is the github link</P>
+       </wrath>
         
-    </footer>
+        
+    </div>
+
 </body>
 </html>
-
-
-
-.
